@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="Your Own Dictionary" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <div class="header">
+        <h1>Dictionary</h1>
+        <p>Add your words</p>
+      </div>
+      <div class="content">
+        <form id="searchform">
+          <input type="text" placeholder="Search" id="search" class="search" />
+        </form>
+        <div class="words-list">
+          <ul>
+            <li>
+              <div class="word-context">
+                <span class="word">Convention</span>
+                <span class="meaning">A way something is usually done</span>
+              </div>
+              <div class="buttonsection">
+                <span class="button edit">Edit</span>
+                <span class="button delete">Delete</span>
+              </div>
+            </li>
+            <li>
+              <div class="word-context">
+                <span class="word">Ailment</span>
+                <span class="meaning">An illness typically minor one</span>
+              </div>
+              <div class="buttonsection">
+                <span class="button edit">Edit</span>
+                <span class="button delete">Delete</span>
+              </div>
+            </li>
+            <li>
+              <div class="word-context">
+                <span class="word">Precedence</span>
+                <span class="meaning"
+                  >The codition of being considered more important than
+                  someone</span
+                >
+              </div>
+              <div class="buttonsection">
+                <span class="button edit">Edit</span>
+                <span class="button delete">Delete</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <form class="addwordform" id="addwordform">
+          <input
+            type="text"
+            placeholder="Add Word"
+            id="addword"
+            class="addword"
+          />
+          <input
+            type="text"
+            placeholder="Meaning"
+            id="meaningword"
+            class="addword"
+          />
+          <button class="button">Add word</button>
+        </form>
+      </div>
+      <footer>
+        <p>Created by @SOPHIN</p>
+      </footer>
+    </main>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
