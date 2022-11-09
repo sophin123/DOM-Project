@@ -1,0 +1,57 @@
+body {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidecontainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 15%;
+}
+
+.search {
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+li:hover {
+  list-style: circle;
+}
+
+.contextcontainer {
+  display: flex;
+  flex: 85%;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+.card {
+  text-align: center;
+  margin: 60px;
+  font-size: 20px;
+}
+
+img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+
+p {
+  overflow: hidden;
+  opacity: 0.5;
+  font-size: 16px;
+}
