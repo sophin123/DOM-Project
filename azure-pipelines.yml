@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: MyPool
+pool: Local Pipelines
 
 steps:
 - task: ArchiveFiles@2
