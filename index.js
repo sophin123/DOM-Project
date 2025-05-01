@@ -42,8 +42,8 @@ list.addEventListener("click", (e) => {
       meaning.className = "meaning";
       meaning.textContent = text;
 
-      wordContext.removeChild(wordContext.lastElementChild);
-      wordContext.removeChild(wordContext.lastElementChild);
+      textArea.remove();
+      saveBtn.remove();
 
       wordContext.append(meaning);
     });
